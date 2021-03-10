@@ -18,7 +18,10 @@ public class Main {
 
 
         for (int i = 0; i < 3; i++) {
-            System.out.println(nameHeroes[i].name);
+            System.out.println("Hero:" + " " + nameHeroes[i].name);
+
+
         }
+        return  nameHeroes[0];
     }
 }
